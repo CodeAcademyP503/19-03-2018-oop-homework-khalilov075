@@ -1,0 +1,81 @@
+Sual 1. 
+-------------------
+"break" ve "continue" arasindaki ferq odur ki, "break" mueyyen shert daxilinde emeliyyati dayandirir,
+ "continue" ise mueyyen shert daxilinde emelliyyati davam eletdirir. Meselen; if istifade edib dongu 
+yaradiriqsa "continue" verilen shert duzdurse shertdeki deyeri yerine yetirib atlayib prosesi davam etdirir.
+Ancaq "break" da bele bir shey olmur, emeliyyati dayandirir.
+
+Sual 2.
+------------------
+This yaranan obyekt nedirse onu bildirir. this ifadesiylen 2 eyni adli property-den istifade elemek olar
+
+
+
+
+
+Sual 3.
+-----------------
+String class-dir
+ string keyword-dur.
+
+
+
+
+
+
+Sual 4.
+-----------------
+Equals(),GetHashCode(),GetType(),ToString() -- methodlari Object Class-inin methodlaridi.
+Equals() __ Gosterilen obyektin movcud obyekte beraber olub olmadigini müeyyen edir.
+GetHashCode()__ Varsayilan hash funksiyasi kimi xidmet edir.
+GetType()__ Cari nümunenin növünü alir.
+ToString()
+
+
+
+
+
+
+Sual 5.
+---------------------
+public ve static
+
+public bize imkan verir ki yaratdigimiz poperty ve ya metgodu kod blokundan kenarda da cagiraq istifade ede bilek
+
+staticde ise hemin kod blokunda olan propertylerin vakue larini deyishmek olmur
+ve static methodu cagirmaq uchun biz yaratdigimiz obyektin sonuna noqte qoyub cagira bilerik
+staticde olan butun kodlar sabit qalir
+obyektin static methodunu cagiranda biz propertynin sabit qiymetini alacayiq
+
+static methodu daxilinde olan propertyler hemin kod blokundaan kenarda istifade oluna bilmez
+
+
+
+
+
+Sual 6. 
+--------------------
+inheritance miras almagi temin edir.
+meselen;
+public class A
+{
+    public void Method1()
+    {
+        // Do something.
+    }
+}
+
+public class B : A
+{
+    public override void Method1() 
+    {
+        // Do something else.
+    }
+}
+Sual 7.
+--------------------
+Method Overload, eyni ada sahib birden cox method'un olabilmesidir.
+
+Sual 8.
+------------------
+ Property'den yaradimis obyekt erazisine nezaret etek ucundur.
